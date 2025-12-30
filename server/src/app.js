@@ -12,7 +12,6 @@ const PORT = process.env.PORT || 5000;
 app.use(
     cors({
         origin: [
-            process.env.NEXT_PUBLIC_APP_URL,
             "https://aganitha-assignment-ztuw.onrender.com",
             "http://localhost:3000"
         ],
